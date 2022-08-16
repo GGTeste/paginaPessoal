@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página do Gabriel</title>
+</head>
+<body>
+    <h1>Sejam bem vindos a minha página</h1>
+    <p>Sou formado em CC pela UFC, tenho mestrado e doutorado em Computação pela USP. Sou professor da UFERSA
+        desde 2010, onde já ministrei em torno de 10 disciplinas diferentes para o curso de CC.Também sou membro efetivo
+        do Mestrado em CC (PpGCC UERN-UFERSA).
+    </p>
+    <img src="img/Foto.jpg" alt="Minha foto" width="200" height="300">
+    <hr>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Tentar tocar violão</li>
+        <li>Pedalar</li>
+        <li>Leitura</li>
+        <li>Academia</li>
+    </ul>
+    <h2>Disciplinas que já ministrei na UFERSA</h2>
+    <ol>
+        <li>POO</li>
+        <li>ES</li>
+        <li>BD</li>
+        <li>Gestão de projetos</li>
+        <li>Teoria dos Grafos</li>
+        <li>Compiladores</li>
+        <li>Programação Web</li>
+        <li>Engenharia de Requisitos</li>
+        <li>Análise de Algoritmos</li>
+        <li>Informática aplicada</li>
+    </ol>
+    <h2>Horários e disciplinas do semestre 2022.1</h2>
+    <table>
+        <th>Disciplinas</th>
+        <th>Horários</th>
+        <tr>
+            <td>Engenharia de Requisitos</td>
+            <td>7:55 às 9:45</td>
+        </tr>
+        <tr>
+            <td>Programação Orientada a Objetos</td>
+            <td>9:45 às 11:35</td>
+        </tr>
+    </table>
+    <h2>Links importantes</h2>
+    <p>
+        <a href="http://lattes.cnpq.br/1318090923173762">Lattes </a><br>
+        <a href="https://www.youtube.com/channel/UCoaNRW6MKBTAisVRPX7JmQg">Canal do Youtube</a>
+    </p>
+    <hr>
+    <form action="mailto:pgabrielgadelha@gmail.com?subject=formulário do site pessoal" method="POST" enctype="text/plain">
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" placeholder="nome" id="nome" required/><br>
+        <label for="grau-de-satisfacao">O quanto você gostou dessas aulas de HTML?</label>
+        <select id="grau-de-satisfacao" name="satisfacao">
+            <option valeu="satisfeito">Satisfeito</option>
+            <option value="parcialmente satisfeito">Parcialmente Satisfeito</option>
+            <option value="insatisfeito">Insatisfeito</option>
+        </select>
+        <br>
+        <label for="msg"> Digite sua mensagem:</label>
+        <textarea id="msg" name="msg" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
